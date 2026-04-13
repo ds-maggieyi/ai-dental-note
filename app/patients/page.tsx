@@ -167,7 +167,7 @@ export default function PatientsPage() {
                         />
                       </td>
                       <td className="px-6 py-4">
-                        <Link href={`${basePath}/patients/${patient.id}`} className="text-sm font-medium text-blue-600 hover:underline">
+                        <Link href={`/patients/${patient.id}`} className="text-sm font-medium text-blue-600 hover:underline">
                           {patient.name}
                         </Link>
                       </td>
